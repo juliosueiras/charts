@@ -7,7 +7,7 @@ dependencies:
   version: 17.11.3
 - name: kafka
   repository: oci://registry-1.docker.io/bitnamicharts
-  version: 29.3.14
+  version: 32.4.3
 - name: clickhouse
   repository: https://sentry-kubernetes.github.io/charts
   version: 4.1.0
@@ -23,5 +23,5 @@ dependencies:
 - name: nginx
   repository: oci://registry-1.docker.io/bitnamicharts
   version: 18.2.5
-digest: sha256:d2d9ed95a3d4add3948dc237ba578be86e8dbee03bbee6ba7a886bc950b75ab2
-generated: "2025-09-22T01:15:11.742892877Z"
+digest: sha256:fc1fa0b27f17902eae66f714969f82e5006d2b80ad10dab091022c4b32c01e40
+generated: "2025-10-09T14:48:35.709429159Z"

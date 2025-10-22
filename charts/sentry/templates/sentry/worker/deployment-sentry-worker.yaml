@@ -81,7 +81,8 @@ spec:
         command: ["sentry"]
         args:
           - "run"
-          - "worker"
+          - "taskworker"
+          - "--rpc-host-list=openstack-sentry-taskbroker:50051"
           {{- if .Values.sentry.worker.excludeQueues }}
           - "--exclude-queues"
           - "{{ .Values.sentry.worker.excludeQueues }}"
